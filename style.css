@@ -1,0 +1,550 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #fff1dc;
+}
+
+@font-face {
+    font-family: "Asap";
+    src: url(assets/fonts/Asap-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "LucidaSans";
+    src: url(assets/fonts/Lucida%20Sans%20Italic.ttf);
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url(assets/fonts/OpenSans-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "PTSansNarrow";
+    src: url(assets/fonts/PTSansNarrow-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "PTSans";
+    src: url(assets/fonts/PTSans-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "segoe-wp";
+    src: url(assets/fonts/segoe-wp-light.ttf);
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "SegoeWp";
+    src: url(assets/fonts/SegoeWP.woff);
+}
+
+.wholeWrapper {
+    width: 1300px;
+    height: 1847px;
+    margin: 0 0 0 280px;
+    box-shadow: 0 0 20px #888888;
+    background-color: #ffffff;
+}
+
+
+/* Header */
+
+.contentWrapper {
+    background-image: url(assets/Layer%2020.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 566px;
+    width: 100%;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    height: 90px;
+    padding: 30px 0 60px 140px;
+    margin-bottom: 60px;
+}
+
+.logo {
+    width: 316px;
+    height: 83px;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+.menu {
+    display: grid;
+    overflow: hidden;
+    position: relative;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    width: 420px;
+    height: 41px;
+    background-color: #F3C404;
+    margin: 40px 0 0 300px;
+    box-shadow: -7px -7px 1px -2px rgba(245, 197, 6, 0.56),
+        -11px -11px 1px -2px rgba(245, 197, 6, 0.56);
+}
+
+.menu h3 {
+    font-family: "SegoeWp";
+    color: #B99403;
+}
+
+.menu a:hover {
+    background-color: #ffc746;
+    cursor: pointer;
+}
+
+.About {
+    grid-area: 1 / 1 / 2 / 2;
+    width: 150px;
+    height: 41px;
+    padding: 10px 0 11px 25px;
+    display: flex;
+}
+
+.About img {
+    padding-right: 5px;
+}
+
+.Services {
+    grid-area: 1 / 2 / 2 / 3;
+    width: 125px;
+    height: 41px;
+    padding: 10px 0 11px 10px;
+    display: flex;
+    border-right-style: solid;
+    border-color: #B99403;
+    border-left-style: solid;
+    border-width: thin;
+}
+
+.Services img {
+    padding-right: 5px;
+}
+
+.Contact {
+    grid-area: 1 / 3 / 2 / 4;
+    width: 173px;
+    height: 41px;
+    padding: 10px 0 11px 10px;
+    display: flex;
+}
+
+.Contact img {
+    padding-right: 5px;
+}
+
+
+.mainContent {
+    display: flex;
+}
+
+.leftArrow {
+    margin-top: 150px;
+}
+
+.mainContent a {
+    cursor: pointer;
+}
+
+.Birds {
+    width: 550px;
+    height: 330px;
+    position: relative;
+    margin: 15px 0 0 120px;
+    background-image: url(assets/Group%206.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Birds .playButton {
+    position: absolute;
+    margin: 130px 241px 130px 241px;
+}
+
+.Birds .player {
+    position: absolute;
+    margin: 285px 0 0 15px;
+}
+
+.Title {
+    width: 400px;
+    height: 150px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Asap";
+    font-weight: bold;
+    font-size: 1.6em;
+    margin: 100px 0 0 0;
+}
+
+.cool {
+    color: #F3C404;
+}
+
+.minimal {
+    color: #ffffff;
+}
+
+.rightArrow {
+    margin: 150px 0 0 200px;
+}
+
+
+/* End of Header */
+
+.second {
+    height: 213px;
+    width: 100%;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-image: url(assets/Layer%207.png);
+    z-index: 1;
+    justify-content: center;
+}
+
+
+.gridSystem {
+    width: 1025px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    padding-left: 130px;
+    text-align: center;
+}
+
+.Design {
+    grid-area: 1 / 1 / 2 / 2;
+    border-left-style: solid;
+    border-width: 1px;
+    border-color: #cbc8c8;
+    width: 345px;
+    height: 213px;
+    padding-top: 50px;
+}
+
+.Design:hover {
+    background-color: #ffe5cf;
+    color: #343434;
+    cursor: pointer;
+}
+
+.Design h2 {
+    padding-top: 15px;
+    font-family: "segoe-wp";
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.Customise {
+    grid-area: 1 / 2 / 2 / 3;
+    border-left-style: solid;
+    border-width: 1px;
+    border-color: #cbc8c8;
+    padding-top: 50px;
+    width: 345px;
+    height: 213px;
+}
+
+.Customise:hover {
+    background-color: #ffe5cf;
+    color: #343434;
+    cursor: pointer;
+}
+
+.Customise h2 {
+    font-family: "segoe-wp";
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.Free {
+    grid-area: 1 / 3 / 2 / 4;
+    width: 345px;
+    height: 213px;
+    padding-top: 50px;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-width: 1px;
+    border-color: #cbc8c8;
+}
+
+.Free:hover {
+    background-color: #ffe5cf;
+    color: #343434;
+    cursor: pointer;
+}
+
+.Free h2 {
+    font-family: "segoe-wp";
+    font-weight: bold;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+
+
+/* End of logo content */
+
+
+.third {
+    height: 509px;
+    z-index: 0;
+    width: 100%;
+    position: relative;
+    background-image: url(assets/Layer%2010%20copy%203.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.third h1 {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "PTSans";
+    font-weight: bold;
+    font-size: 2em;
+    padding: 30px 0 0 140px;
+}
+
+.flexSystem {
+    display: flex;
+    padding: 30px 0 0 140px;
+}
+
+.flexSystem .text {
+    width: 340px;
+    height: 235px;
+    background-color: #EC9E03;
+    position: relative;
+}
+
+.text p {
+    font-family: "SegoeWp";
+    position: absolute;
+    width: 280px;
+    height: 190px;
+    font-size: 26px;
+    color: #f7f7f7;
+    padding: 15px 0 25px 40px;
+}
+
+.text .plus{
+    width: 10px;
+    height: 10px;
+    position:absolute;
+    margin: 210px 0 0 310px;
+}
+
+.text a:hover{
+    cursor: pointer;
+}
+
+.flexSystem .video {
+    width: 340px;
+    height: 235px;
+    background-image: url(assets/Layer%2025.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.video a {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin: 90px 0 0 130px;
+}
+
+.video a:hover {
+    cursor: pointer;
+}
+
+.flexSystem .twitter {
+    width: 340px;
+    height: 235px;
+    background-color: #EC9E03;
+    position: relative;
+    margin-left: 35px;
+}
+
+.twitter .twitterLogo {
+    position: absolute;
+    padding: 55px 0 0 80px;
+}
+
+.twitter .plus{
+    width: 10px;
+    height: 10px;
+    position:absolute;
+    margin: 210px 0 0 310px;
+}
+
+.twitter a:hover{
+    cursor: pointer;
+}
+
+
+.date {
+    width: 115px;
+    height: 85px;
+    background-color: #DDB101;
+    margin-left: 140px;
+}
+
+.dateText {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Asap";
+    padding-top: 5px;
+}
+
+.dateText h2{
+    font-size: 45px;
+    color: #ffffff;
+}
+.dateText h3{
+    font-size: 20px;
+    color: #a74f04;
+}
+
+.slider{
+    padding: 40px 0 0 215px;
+}
+
+/* end of this crap */
+
+
+.fourth {
+    height: 499px;
+    width: 100%;
+    background-image: url(assets/Layer%2032.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fourth h1{
+    font-family: "PTSans";
+    font-weight: 100;
+    font-size: 2em;
+    color: #ffe30d;
+    padding: 30px 0 0 380px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+
+.fourth .flexSystem1{
+    display: flex;
+}
+
+.flexSystem1 .iconFlex{
+    display: flex;
+}
+
+.iconFlex{
+    margin: 40px 0 0 140px;
+    width: 600px;
+    height: 290px;
+}
+
+.iconFlex .first{
+    padding-right: 30px;
+    width: 320px;
+    height: 255px;
+}
+
+.iconFlex .second{
+    margin-right: 30px;
+    margin-top: 60px;
+    width: 130px;
+    height: 180px;
+}
+
+.iconFlex .third{
+    margin-top: 180px;
+    width: 40px;
+    height: 60px;
+}
+
+.textContainer{
+    margin-top: 100px;
+}
+
+.list{
+    font-family: "OpenSans";
+    font-size: 18px;
+    margin-top: 90px;
+    color: #bcbcbc;
+    width: 345px;
+    line-height: 2;
+
+}
+
+.list ul {
+    display: flex;
+    flex-flow: column;
+    list-style-image: url("assets/Ellipse%204.svg");
+}
+
+.lmao{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #d4ac05;
+    position: absolute;
+    margin: -340px 0 0 105px;
+}
+
+.lmao h2{
+    font-size: 13px;
+    font-family: "OpenSans";
+    width: 120px;
+    color: #ffffff;
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+
+.footer {
+    height: 64px;
+    width: 100%;
+    position: relative;
+    background-color: #4C4C4C;
+    box-shadow: 0 -5px 10px #2e2e2e;
+}
+
+.logoFooter{
+    float: left;
+    padding: 5px 0 0 140px;
+}
+
+@media only screen and (max-width: 360px){
+    .logoMob{
+        visibility: visible;
+    }
+    .wholecontainer{
+        width: auto;
+        height:auto;
+    }
+}
+

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="501" height="27" viewBox="0 0 501 27">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="imageMask" width="404" height="12" transform="translate(230 454)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_5" data-name="Group 5" transform="translate(-179 -446)">
+    <path id="Shape_9" data-name="Shape 9" d="M674.371,460.977v-.958H680v.958Zm-.186-2.8,5.075-2.428.416.863-5.076,2.429Zm-.434-2.136L677.239,453l.52.593-3.489,3.041Zm-5.491,7.306v-5.7c1.448-1.32,3.208-2,4.415-3.469v12.638C671.469,465.342,669.709,464.666,668.261,463.347ZM665,457.659h2.915V463.3H665Zm12.759,9.747-.519.594-3.489-3.042.52-.593Zm-3.35-5.4,5.075,2.428-.414.864-5.076-2.429Z" fill="#f5c506"/>
+    <image id="Layer_16" data-name="Layer 16" width="27" height="27" transform="translate(179 446)" opacity="0.369" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAYAAACN1PRVAAAABHNCSVQICAgIfAhkiAAAAFRJREFUSEtj/HqU7QsDAwMHEP8HYloBRqDBPxiBlv0AMthpZQuSuT9HLaNGKI8GIzVCkWE0GEeDEW8IjCaQ0QQymkCokgZGg3E0GMkPAXBBTLcWMQAv42Z8nUr44AAAAABJRU5ErkJggg=="/>
+    <path id="Shape_8" data-name="Shape 8" d="M189.006,452.058a.975.975,0,0,1,.678-.955,1.067,1.067,0,0,1,1.214.223l7.784,7.411a.953.953,0,0,1,.318.76.978.978,0,0,1-.318.732l-7.784,7.439a1.04,1.04,0,0,1-1.214.222.99.99,0,0,1-.678-.98V452.058Z" fill="#fff" opacity="0.369"/>
+    <rect id="Rounded_Rectangle_1" data-name="Rounded Rectangle 1" width="404" height="12" rx="5" transform="translate(230 454)" fill="#f5c506" opacity="0.278"/>
+    <g id="Layer_14" data-name="Layer 14" clip-path="url(#clip-path)">
+      <image id="Layer_14-2" data-name="Layer 14" width="182" height="38" transform="translate(227 442)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALYAAAAmCAYAAABplmFHAAAABHNCSVQICAgIfAhkiAAAANNJREFUeF7t0kENACAQBDF44V8UknhDgoxJz8HNdp697nAKxApMsGOLeucXABuEZAGwk7N6CmwGkgXATs7qKbAZSBYAOzmrp8BmIFkA7OSsngKbgWQBsJOzegpsBpIFwE7O6imwGUgWADs5q6fAZiBZAOzkrJ4Cm4FkAbCTs3oKbAaSBcBOzuopsBlIFgA7OaunwGYgWQDs5KyeApuBZAGwk7N6CmwGkgXATs7qKbAZSBYAOzmrp8BmIFkA7OSsngKbgWQBsJOzegpsBpIFwE7O6qkH1TBopzLAqxkAAAAASUVORK5CYII="/>
+    </g>
+  </g>
+</svg>
